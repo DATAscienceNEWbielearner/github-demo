@@ -30,3 +30,12 @@ for i in range(0,n):
             Array1[i]=Array1[j]
             Array1[j]=temp
     print("2nd greatest element is",Array1[-2])
+
+    # list is sorted or not
+    a=[1,2,3,4,5]
+    res=True
+    for i in range(len(a)-1):
+        if a[i]>a[i+1]:
+            res=False
+            break
+print(res)
