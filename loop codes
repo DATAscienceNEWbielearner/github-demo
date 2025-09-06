@@ -10,4 +10,40 @@ for i in range(1,num+1):
     # reverse for loop
 print("\n") # replace with any number 
 for i in range (num,0,-1):
- print(i);
+ print(i)
+
+ # take a number as input & print its table
+num=int(input("enter a number: "))
+for i in range(1,11):
+    print(num,"x",i,"=", num*i)
+
+    # sum up to n num
+
+print("enter the value of number n:")
+sum=2
+n=int(input())
+print("enter"+str(n)+"Numbers:")
+for i in range(n):
+     sum=sum+n
+     print("sum of"+str(n)+"Numbers="+str(sum))
+
+     # factorial of a number
+     num=int(input("enter a no"))
+     factorial=1
+     if num<0: # check if no is negative,
+         print("factorial does not exist")
+     elif num ==0:
+         print("the factorial of 0 is 1")
+     else: 
+         for i in range(1,num+1):
+             factorial=factorial*i
+             print("the factorial of",num,"is",factorial)
+
+ # range seperating all odd even number
+     a=[1,2,3,4,5,6,7,8,9,10]
+     evens=[]
+     odds=[]
+     for n in a:
+         evens.append(n) if n %2==0  else odds.append(n)
+     print(evens)
+     print(odds)
