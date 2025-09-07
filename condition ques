@@ -7,7 +7,7 @@ else:
 
 # gender input
 gender=input("enter your gender")
-if gender==("M"or gender=="m"or gender=="Male" or gender=="male"):
+if gender==("M" or gender=="m" or gender=="Male" or gender=="male"):
     print ("the gender is male:", "have a nice day")
 elif(gender=="F" or gender=="f" or gender=="Female" or gender=="FeMale"):
     print("the gender is female:","ohayo sensai" )
@@ -15,9 +15,17 @@ else:
     print("plzz provide an appropriate format")
 
     # Accept interger to check odd even
-n=int(input("enter number "))
+    n=int(input("enter number:"))
 rem=n%2
 if rem==0:
     print("even")
 else:
     print ("odd")
+    # check voting egligibility
+name=input("enter your name")
+age=int(input("enter your age"))
+if age >=18:
+    print(name,"you are agligiable to vote" )
+else:
+    print(name,"you are not agligiable")
+
