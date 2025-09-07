@@ -58,3 +58,16 @@ for i in range(1,n):
        print("number is perfect.")
 else:
     print("Not a perfect number.")    
+
+# check the number is prime or not
+num= int(input(" enter any number you want to check"))
+if num>1:
+     for i in range (2,num): # check for factor
+          if (num%i)==0:
+               print(num,"is not a prime number")
+               print(i,"times",num//i,"is",num)
+               break
+          else:
+               print(num,"is a prime number")
+else:
+    print(num,"is not a prime number")
