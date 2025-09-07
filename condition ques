@@ -21,6 +21,7 @@ if rem==0:
     print("even")
 else:
     print ("odd")
+
     # check voting egligibility
 name=input("enter your name")
 age=int(input("enter your age"))
@@ -29,3 +30,15 @@ if age >=18:
 else:
     print(name,"you are not agligiable")
 
+# check leap year
+y= int(input("enter a year"))
+if y % 4==0:
+    if y % 100==0:
+        if y % 400==0:
+            print("leap year")
+        else:
+            print("not a leap year")
+    else:
+        print("leapyear")
+else:
+     print ("not a leap year")
