@@ -71,3 +71,12 @@ if num>1:
                print(num,"is a prime number")
 else:
     print(num,"is not a prime number")
+# check number is palindrome or not
+word=input("enter word")
+word=word.lower()
+if word ==word[::-11]:
+     print(word,"is a palindrome" )
+else:
+     print(word,"is not a palindrome")
+
+     
