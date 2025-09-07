@@ -79,4 +79,16 @@ if word ==word[::-11]:
 else:
      print(word,"is not a palindrome")
 
-     
+     # counting letter,digits,symbols in a string
+     str=input("please enter a string")
+     alphabets=digits=special=0
+     for i in range(len(str)):
+          if(str[i].isalpha()):
+               alphabets=alphabets+1
+          elif(str[i].isdigit()):
+               digits=digits+1
+          else:
+               special=special+1
+               print("\ntotal number of alphabets in this string:",alphabets)
+               print("\ntotal number of digits in this string:",digits)
+               print("\ntotal number of special character in this string:",special)
