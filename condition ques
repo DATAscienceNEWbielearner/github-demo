@@ -1,0 +1,16 @@
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+if a>b:
+    print(a)
+else:
+    print(b)
+
+# gender input
+gender=input("enter your gender")
+if gender==("M"or gender=="m"or gender=="Male" or gender=="male"):
+    print ("the gender is male:", "have a nice day")
+elif(gender=="F" or gender=="f" or gender=="Female" or gender=="FeMale"):
+    print("the gender is female:","ohayo baka" )
+else:
+    print("plzz provide an appropriate format")
+    
